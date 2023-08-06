@@ -1,9 +1,18 @@
-// OPERATORY I INSTRUKCJE WARUNKOWE
+// PĘTLE
 
+// Napisz funkcję nOddNumbers, która przyjmuje parametr n. 
+// Parametr n będzie mówił naszej funkcji ile kolejnych liczb 
+// nieparzystych powinna wypisać. Przykładowo wywołanie nOddNumbers(5) 
+// wypisze na konsoli kolejno 1, 3, 5, 7, 9. Wzór na kolejną liczbę
+// nieparzystą to 2*i - 1.
 
+let nOddNumbers = (n) => {
+    for (let i = 1; i<=n; i++) {
+        console.log(2*i - 1)
+    }
+}
 
-
-
+nOddNumbers(10)
 
 // FUNKCJE
 
